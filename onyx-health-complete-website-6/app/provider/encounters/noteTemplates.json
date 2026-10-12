@@ -1,0 +1,106 @@
+[
+  {
+    "id": "primary",
+    "name": "Primary care visit",
+    "description": "A clear structure for a general primary care encounter.",
+    "fields": {
+      "ros": "Relevant symptoms reviewed:\nPertinent positives:\nPertinent negatives:",
+      "physical_exam": "Exam performed:\nRelevant findings:",
+      "assessment": "Problems addressed:\nClinical impression:\nSupporting findings:",
+      "plan": "Treatment discussed:\nMedication changes:\nTests / referrals:\nPatient education:",
+      "follow_up": "Follow-up timing:\nInstructions reviewed:\nWhen to contact the care team:",
+      "hpi": "Reason for visit:\nSymptom timeline:\nRelevant history:\nPatient goals:"
+    }
+  },
+  {
+    "id": "acute",
+    "name": "Acute concern",
+    "description": "Focus the note on a new symptom or concern.",
+    "fields": {
+      "ros": "Relevant symptoms reviewed:\nPertinent positives:\nPertinent negatives:",
+      "physical_exam": "Exam performed:\nRelevant findings:",
+      "assessment": "Problems addressed:\nClinical impression:\nSupporting findings:",
+      "plan": "Treatment discussed:\nMedication changes:\nTests / referrals:\nPatient education:",
+      "follow_up": "Follow-up timing:\nInstructions reviewed:\nWhen to contact the care team:",
+      "hpi": "Main concern:\nOnset / duration:\nSeverity / course:\nAssociated symptoms:\nMeasures tried:"
+    }
+  },
+  {
+    "id": "followup",
+    "name": "Follow-up visit",
+    "description": "Document progress and next steps since the previous visit.",
+    "fields": {
+      "ros": "Relevant symptoms reviewed:\nPertinent positives:\nPertinent negatives:",
+      "physical_exam": "Exam performed:\nRelevant findings:",
+      "assessment": "Problems addressed:\nClinical impression:\nSupporting findings:",
+      "plan": "Treatment discussed:\nMedication changes:\nTests / referrals:\nPatient education:",
+      "follow_up": "Follow-up timing:\nInstructions reviewed:\nWhen to contact the care team:",
+      "hpi": "Reason for follow-up:\nChanges since last visit:\nResponse to treatment:\nCurrent concerns:"
+    }
+  },
+  {
+    "id": "wellness",
+    "name": "Annual wellness / preventive visit",
+    "description": "Organize preventive care discussions and patient goals.",
+    "fields": {
+      "ros": "Relevant symptoms reviewed:\nPertinent positives:\nPertinent negatives:",
+      "physical_exam": "Exam performed:\nRelevant findings:",
+      "assessment": "Problems addressed:\nClinical impression:\nSupporting findings:",
+      "plan": "Preventive care discussed:\nScreening decisions:\nImmunizations reviewed:\nHealth goals:\nTests / referrals:",
+      "follow_up": "Follow-up timing:\nInstructions reviewed:\nWhen to contact the care team:",
+      "hpi": "Patient priorities:\nInterval history:\nLifestyle / habits:\nPreventive care reviewed:"
+    }
+  },
+  {
+    "id": "chronic",
+    "name": "Chronic condition follow-up",
+    "description": "Track ongoing symptoms, treatment, and care goals.",
+    "fields": {
+      "ros": "Relevant symptoms reviewed:\nPertinent positives:\nPertinent negatives:",
+      "physical_exam": "Exam performed:\nRelevant findings:",
+      "assessment": "Problems addressed:\nClinical impression:\nSupporting findings:",
+      "plan": "Treatment discussed:\nMedication changes:\nTests / referrals:\nPatient education:",
+      "follow_up": "Follow-up timing:\nInstructions reviewed:\nWhen to contact the care team:",
+      "hpi": "Conditions reviewed:\nInterval symptoms:\nHome measurements:\nMedication adherence / concerns:\nPatient goals:"
+    }
+  },
+  {
+    "id": "medication",
+    "name": "Medication management",
+    "description": "Structure medication review and shared decisions.",
+    "fields": {
+      "ros": "Relevant symptoms reviewed:\nPertinent positives:\nPertinent negatives:",
+      "physical_exam": "Exam performed:\nRelevant findings:",
+      "assessment": "Problems addressed:\nClinical impression:\nSupporting findings:",
+      "plan": "Treatment discussed:\nMedication changes:\nTests / referrals:\nPatient education:",
+      "follow_up": "Follow-up timing:\nInstructions reviewed:\nWhen to contact the care team:",
+      "hpi": "Medications reviewed:\nTreatment response:\nAdherence:\nSide effects / concerns:\nPatient questions:"
+    }
+  },
+  {
+    "id": "telehealth",
+    "name": "Telehealth visit",
+    "description": "Capture virtual-visit context and relevant limitations.",
+    "fields": {
+      "ros": "Relevant symptoms reviewed:\nPertinent positives:\nPertinent negatives:",
+      "physical_exam": "Observations possible by this visit modality:\nPatient-reported measurements:\nExam limitations:",
+      "assessment": "Problems addressed:\nClinical impression:\nSupporting findings:",
+      "plan": "Treatment discussed:\nMedication changes:\nTests / referrals:\nPatient education:",
+      "follow_up": "Follow-up timing:\nInstructions reviewed:\nWhen to contact the care team:",
+      "hpi": "Visit modality:\nPatient location:\nParticipants:\nConsent discussion:\nReason for visit:\nSymptom history:"
+    }
+  },
+  {
+    "id": "results",
+    "name": "Results review",
+    "description": "Discuss findings and the agreed follow-up plan.",
+    "fields": {
+      "ros": "Relevant symptoms reviewed:\nPertinent positives:\nPertinent negatives:",
+      "physical_exam": "Exam performed:\nRelevant findings:",
+      "assessment": "Results discussed:\nClinical interpretation:\nProblems addressed:",
+      "plan": "Treatment discussed:\nMedication changes:\nTests / referrals:\nPatient education:",
+      "follow_up": "Follow-up timing:\nInstructions reviewed:\nWhen to contact the care team:",
+      "hpi": "Results reviewed:\nPatient symptoms / interval changes:\nPatient questions:"
+    }
+  }
+]
